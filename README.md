@@ -58,9 +58,9 @@ Currently, I'm looking for **job and internship opportunities** where I can lear
 
  🤝 Connect With Me
 
-📧 **Email:** [Your Email]
-💼 **LinkedIn:** [Your LinkedIn]
-🐙 **GitHub:** [Your GitHub Username]
+📧 **Email:** [shukladivyansh929@gmail.com]
+💼 **LinkedIn:** [https://www.linkedin.com/in/divyansh-shukla-065380399]
+🐙 **GitHub:** [(https://github.com/shukladivyansh929)]
 
 ---
 
