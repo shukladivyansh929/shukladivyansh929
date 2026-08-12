@@ -1,4 +1,30 @@
-Hi, I'm Divyansh Shukla 👋
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Generate Snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: shukladivyansh929
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Push Snake
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BUILD_DIR: distHi, I'm Divyansh Shukla 👋
 
 💻 Web Developer | Python | Java | C
 
